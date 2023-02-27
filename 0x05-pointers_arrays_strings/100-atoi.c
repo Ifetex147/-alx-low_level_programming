@@ -1,15 +1,17 @@
 #include "main.h"
 
 /**
- * _atoi - Entry point
- * @s: input
+ * _atoi - converts a string to an integer
+ * @s: string to be converted
+ *
  * Return: the int converted from the string
  */
 int _atoi(char *s)
 {
-       int i, d, n, len, f, digit;
-        	d = 0;
-	i = 0	
+	int i, d, n, len, f, digit;
+
+	i = 0;
+	d = 0;
 	n = 0;
 	len = 0;
 	f = 0;
